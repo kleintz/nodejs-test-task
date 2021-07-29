@@ -1,0 +1,19 @@
+{
+  "name": "test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kleintz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.3",
+    "pdf-creator-node": "^2.2.3",
+    "url-pattern": "^1.0.3",
+    "validator": "^13.6.0"
+  }
+}

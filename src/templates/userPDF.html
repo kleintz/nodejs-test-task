@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <mate charest="utf-8" />
+    <title>User details</title>
+  </head>
+  <body>
+    <h1>User information</h1>
+    <p>Firstname: {{user.firstname}}</p>
+    <p>Lastname: {{user.lastname}}</p>
+    <p>Email: {{user.email}}</p>
+    <p>Phone: {{user.phone}}</p>
+    <p>Location: {{user.location}}</p>
+    <ul>
+      {{#each user.social}}
+      <li>Link: {{this.link}}</li>
+      {{/each}}
+    </ul>
+  </body>
+</html>
